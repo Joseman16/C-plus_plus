@@ -10,11 +10,11 @@ int main(){
 	
 	while(bandera){
 		
-		cout<<"Tienes sueño: ";
+		cout<<"Tienes sueño[s/n]: ";
 		cin>>tieneSueno;
 		
 		if(tieneSueno == "s" || tieneSueno == "S" ){
-			cout<<"Duerme";
+			cout<<"Procede a dormir";
 			bandera = false;
 		}else{
 			cout<<"Vamos a lokiar :)";
